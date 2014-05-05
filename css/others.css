@@ -1,0 +1,638 @@
+/* For front page--------------
+-----------------------------*/
+
+/*For Social media links-----*/
+
+#FooterContainer{
+/*border-top:1px solid rgb(213,213,218);*/
+background-color:#ededf0;
+}
+
+#FooterContainer .links p{
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:20px;
+padding-top:14px;
+margin:0 20px 0 0;
+}
+
+/*For feedback text----------*/
+
+.bg-grey{
+background-color:#ededf0;
+
+}
+#blog{
+padding-bottom:25px;
+padding-top:25px;
+height:150px;
+}
+#blog .gont h3{
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+font-size:22px;
+padding-bottom:0;
+}
+#blog a{
+display:inline-block;
+border-bottom:1px solid black;
+color:black;
+}
+
+#blog a:hover{
+background-color:grey;
+}
+
+/*For feature area-----------*/
+
+.wwd-inner{
+background-color:white;
+}
+
+.wwd-heading center{
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:28px;
+}
+.wwd-title h3{
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+font-size:22px;
+}
+/*For Top Sign Up area-------*/
+
+#InnerWrap #MainContainer .welcome-image{
+background-color:#ededf0;
+padding-top:75px;
+padding-bottom:75px;
+}
+#MainContainer .register-container{
+margin:0;
+}
+#WelcomeDisplay .welcome-heading{
+color:black;
+font-family:"Lato",sans-serif;
+font-weight:900;
+font-size:60px;
+}
+
+#WelcomeContainer #WelcomeDisplay .intro{
+color:black;
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+margin-top:25px;
+font-size:24px;
+padding-right:20px;
+}
+
+table.register-table{
+border-collapse:collapse;
+}
+
+table.register-table td{
+display:inline-block;
+padding-bottom:5px;
+}
+table.register-table td [name=first_name], table.register-table td [name=last_name],table.register-table td [name=password],table.register-table td [name=password_again]{
+border:1px solid #ccc;
+padding:5px;
+width:119px;
+margin-right:5px;
+}
+#signup_head{
+display:inline-block;
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:20px;
+padding-bottom:5px;
+color:black;
+}
+table.register-table td [name=username],table.register-table td [name=email]{
+border:1px solid #ccc;
+width:257px;
+padding:5px;
+}
+table.register-table td .TextInput{
+background-color:rgb(252,252,252);
+}
+table.register-table td .TextInput:focus{
+background-color:white;
+}
+table.register-table td input[type=submit]{
+font-family:Lato,san-serif;
+font-weight:700;
+font-size:18px;
+background-color:#4d90fe;
+width:269px;
+border-radius:3px;
+border:1px solid #3079ed;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+table.register-table td input[type=submit]:hover{
+background-color:#4787ed;
+}
+
+/*For top bar----------------*/
+
+#TopBar{
+font-family:Lato,sans-serif;
+font-weight:900;
+}
+.signin-drop{
+top:55px;
+}
+#whiteArrow{
+display:none;
+}
+#TopBarContainer .MenuButton{
+font-family:Lato,sans-serif;
+font-weight:900;
+font-size:18px;
+height:55px;
+padding-top:13px;
+}
+
+#TopBarContainer #DropDown{
+background-color:white;
+width:200px;
+font-family:Lato,sans-serif;
+font-weight:700;
+border:1px solid #ccc;
+padding:5px;
+}
+#TopBarContainer #LoginMenu{
+width:190px;
+padding:0;
+margin:0 auto 0 auto;
+}
+#TopBarContainer #login li{
+padding:0;
+margin:10px;
+}
+#TopBarContainer #username,#TopBarContainer #password{
+margin:0;
+width:163px;
+border:1px solid rgb(241,237,237);
+background-color:rgb(252,252,252);
+border-radius:3px;
+padding-left:5px;
+}
+#TopBarContainer #username:focus,#TopBarContainer #password:focus{
+background-color:white;
+}
+#TopBarContainer .LoginButtonUi{
+font-size: 16px;
+background-color: #4d90fe;
+width: 172px;
+border-radius: 3px;
+border: 1px solid #3079ed;
+}
+#TopBarContainer .LoginButtonUi:hover{
+background-color:#3078ed;
+}
+#TopBar #Logo{
+font-size:25px;
+}
+#TopBarContainer .black{
+float: right;
+font-size: 14px;
+color: rgb(177, 156, 156);
+}
+
+#TopBarContainer .black:hover{
+color:black;
+}
+/*#Logo{
+width:100%;
+}*/
+#TopBar #alphaText{
+text-decoration:none;
+color:white;
+position: relative;
+top:8px;
+font-size:14px;
+}
+#TopBar #alphaText a{
+color:white;
+}
+
+/*Footer Area----------------*/
+.darkgrey{
+background:#252525;
+}
+footer {
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:17px;
+}
+#menu-footer-menu a:hover{
+text-decoration:underline;
+}
+/* Front Page changes ended----
+-----------------------------*/
+
+/* Our Story Page changes------
+-----------------------------*/
+
+/*About Us Container---------*/
+/*---------------------------- 
+.story-content{
+font-family:"Source Sans Pro",sans-serif;
+font-size:24px;
+font-weight:400;
+}
+.story-title{
+display:block;
+font-family:Lato,sans-serif;
+font-size:28px;
+font-weight:700;
+margin-bottom:30px;
+}
+-----------------------------*/
+#MainContainer .our-story{
+width:100%;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+padding:72px 0 0 0;
+background-color:#ededf0;
+min-height:190px;
+}
+#MainContainer .our-story .about-heading{
+font-family:Lato,sans-serif;
+font-weight:900;
+font-size:36px;
+}
+.story-block-1, .story-block-3{
+width:100%;
+background-color:white;
+min-height:460px;
+}
+
+#MainContainer .story-block-2{
+width:100%;
+background:#ededf0;
+min-height:460px;
+}
+
+.start-learning{
+width:100%;
+background-color:#ededf0;
+}
+
+.story-title{
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:28px;
+max-width:980px;
+margin:0 auto 0 auto;
+padding-top:35px;
+}
+
+.story-content{
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+font-size:24px;
+padding-top:40px;
+max-width:980px;
+margin:0 auto 0 auto;
+}
+
+.story-highlight{
+color:rgb(163,163,163);
+padding-left:30px;
+border-left:3px solid rgb(163,163,163);
+font-size:32px;
+margin-top:25px;
+font-weight:600;
+}
+
+.story-content p{
+margin-top:20px;
+}
+.start-learning{
+background-color:#ededf0;
+min-height:90px;
+padding:20px;
+}
+.start-learning .title{
+font-style:Lato,sans-serif;
+font-weight:700;
+max-width:980px;
+margin:0 auto 0 auto;
+}
+.title .text{
+width:480px;
+font-size:36px;
+margin:0 auto 10px auto;
+}
+
+.title a{
+width:124px;
+border-radius:3px;
+color:white;
+font-size:20px;
+display:block;
+margin:0 auto 0 auto;
+padding:5px 10px 5px 10px;
+border:1px solid #3079ed;
+background-color:#4d90fe;
+}
+.title a:hover{
+background-color:#3078ed;
+}
+/*About Us Container end-----*/
+
+
+
+/* Our Story changes ended-----
+-----------------------------*/
+
+/*Left Sidebar-----------------
+-----------------------------
+
+#ui-module-menu-wrap #hideextra{
+padding-top: 3px;
+padding-left:0!important;
+width: 200px;
+height: 35px;
+overflow: hidden;
+box-sizing:border-box!important;
+-moz-box-sizing:border-box!important;
+}
+#ui-module-menu-wrap .module-number-select{
+height:35px;
+}
+Left Sidebar Ended----------
+-----------------------------*/
+
+/*Right Sidebar change---------
+-----------------------------*/
+
+#right-fieldset{
+background-color:white;
+}
+#right-fieldset:hover{
+background-color:rgb(250,250,250);
+}
+#right-fieldset .lesson-text a{
+display:inline-block;
+margin:0;
+padding:0;
+height:auto;
+color:black;
+font-size:18px;
+}
+#right-fieldset .lesson-text a:hover{
+color:blue;
+}
+#right-fieldset .lesson-text:hover{
+background-color:white;
+}
+/*Right Sidebar ended-----------
+------------------------------*/
+
+/*--Course Intro----------------
+------------------------------*/
+/*
+.course-intro-right{
+display:none;
+}
+
+#MainContainer.border-shadow{
+display:none;
+}
+*/
+.course-intro .course-intro-left{
+width:100%;
+}
+
+/*--Course Intro Ended----------
+------------------------------*/
+
+.navLink #thumbnail{
+width:50px;
+height:50px;
+}
+
+
+/*--After login menu-------------
+-------------------------------*/
+
+.submenu{
+padding-bottom:0;
+padding-top:0;
+}
+.submenu ul li a{
+font-family:Lato,sans-serif;
+font-size:14px;
+font-weight:700;
+}
+.submenu ul li a:hover{
+background-color:#3079ed;
+}
+/*--After login menu ended-------
+-------------------------------*/
+/*--Course intro page -----------
+-------------------------------*/
+
+.content{
+padding-top:0;
+padding-bottom:0;
+}
+
+.inners .ocontent{
+border:1px solid #ccc;
+}
+
+.inners .heading{
+padding-top:0;
+padding-bottom:0;
+}
+
+.content .ohead{
+font-family:"Lato",sans-serif;
+font-weight:700;
+margin-bottom:0;
+padding-top:10px;
+padding-bottom:10px;
+background-color:#ededf0;
+}
+
+.content .module_name_index{
+font-size:20px;
+color:rgb(75,75,75);
+}
+
+.head_text span{
+color:rgb(128,128,128);
+font-weight:700;
+}
+body{
+background:#f5f5f5;
+}
+.content .odesc{
+padding-top:15px;
+padding-bottom:15px;
+}
+
+.content .odesc .content{
+margin-bottom:0;
+padding-bottom:0;
+font-size:18px;
+}
+
+.odesc{
+border-bottom:1px solid #eee;
+}
+
+.oprogress{
+padding:10px 20px 10px 20px;
+}
+
+.oprogress .ui-button{
+background-color:#4d90fe;
+border:1px solid #3079ed;
+color:white;
+
+font-size:18px;
+
+padding:2px 4px 2px 4px;
+min-width:90px;
+margin-right:0;
+border-radius:3px;
+}
+
+.ui-widget-header{
+background:rgb(0,185,0);
+}
+
+.oprogress .ui-button:hover{
+background-color:#4787ed;
+}
+
+
+.course-name .blue{
+padding-top:20px;
+padding-bottom:20px;
+color:black;
+font-size:24px;
+font-family:Lato,sans-serif;
+}
+
+.course-name .author{
+font-size:18px;
+padding-left:30px;
+color:rgb(128,128,128);
+}
+
+.course-name .ui-button, .feedback .ui-button, .practice .ui-button, #subscribe_button, .start-course .ui-button{
+background-color:#4d90fe;
+border:1px solid #3079ed;
+color:white;
+font-size:18px;
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+padding:2px 4px 2px 4px;
+min-width:90px;
+margin-right:0;
+border-radius:3px;
+}
+
+.course-name .ui-button:hover, .feedback .ui-button:hover, .practice .ui-button:hover, #subscribe_button:hover, .start-course .ui-button:hover{
+background-color:#4787ed;
+}
+
+.practice .block, .feedback .block, .subscribers .block, .at-a-glance .block, .course-description, .module-info{
+padding-top:0;
+padding:bottom:0;
+border:1px solid #ccc;
+}
+
+.practice .block .heading, .feedback .block .heading, .subscribers .block .heading, .at-a-glance .block .heading, .course-index-left .course-description .heading, .course-index-left .module-info .osynopsis{
+font-family:Lato,sans-serif;
+font-weight:700;
+font-size:20px;
+color:rgb(75,75,75);
+background-color:#ededf0;
+}
+
+
+/*--Course intro page ended------
+-------------------------------*/
+
+
+/*--Course index page------------
+-------------------------------*/
+
+.course-index-left .course-description .heading, .course-index-left .module-info .osynopsis{
+padding-top:10px;
+padding-bottom:10px;
+}
+
+.course-description .content, .course-index-left .module-info .osyncontainer{
+padding-top: 10px;
+}
+.osyncontainer .heading{
+padding-bottom:10px;
+border-bottom:1px solid #eee;
+padding-top:10px
+}
+
+.osyncontainer .heading .module-description .smaller-font{
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+font-size:18px;
+padding-top:10px;
+}
+
+.course-index .course-index-left .course-description .content{
+margin-bottom:0;
+padding-bottom:10px;
+font-family:"Source Sans Pro",sans-serif;
+font-weight:400;
+font-size:18px;
+}
+.at-a-glance-list{
+padding:10px 20px 10px 20px;
+border-bottom:1px solid #eee;
+}
+
+.at-a-glance-list{
+font-family:"Source Sans Pro",sans-serif;
+font-weight:600;
+font-size:18px;
+}
+
+.at-a-glance .heading{
+padding-bottom:0;
+}
+
+.at-a-glance .ohead{
+padding-bottom:10px;
+margin-bottom:0;
+}
+.feedback .heading .ofeed-cont{
+padding-top:10px;
+}
+
+.course-index-left .course-header{
+border:1px solid #ccc;
+}
+
+.course-index .course-header .course-header-info .name{
+font-family:Lato;
+font-size:24px;
+}
+
+.course-index .course-header .course-header-info .course-by .small-font{
+font-family:Lato,sans-serif;
+font-size:18px;
+font-weight:900;
+color:rgb(128,128,128);
+}
+
+/*--Course index page ended------
+-------------------------------*/
